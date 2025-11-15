@@ -1,20 +1,22 @@
 * {
     margin: 0;
+      font-family: "Epilogue", sans-serif;
 }
 
 body {}
 
-header {
+header{
     color: white;
     background-color: black;
+    font-family: "Epilogue", sans-serif;
 
     nav {
-
         gap: 20px;
         padding: 40px;
 
         a {
             color: white;
+            font-size: 17px;
         }
     }
 
@@ -26,6 +28,9 @@ header {
         color: black;
 
     }
+    h3{
+        font-size: 20px;
+}
 }
 
 #hero {
@@ -87,16 +92,20 @@ header {
 footer {
     background-color: black;
     color: white;
-    .container{
-        h2{
+
+    .container {
+        h2 {
             font-size: 32px;
             text-align: center;
             padding: 20px 20px 20px 20px;
         }
-        p{
-          width: 320px;
+
+        p {
+            width: 382px;
+            padding-bottom: 25px;
         }
-        .btn{
+
+        .btn {
             width: 95px;
         }
     }
@@ -188,36 +197,48 @@ footer {
             padding-bottom: 10px;
             padding: 75px;
         }
+
         img {
             width: 25px;
         }
     }
 }
+
 .clients {
     display: flex;
     gap: 20px;
+    p{
+        font-size: 18px;
+    }
 }
-.fa-discord{
+
+.fa-discord {
     color: white;
 }
-.fa-facebook{
+
+.fa-facebook {
     color: white;
 }
-.fa-basketball{
-color: white;
+
+.fa-basketball {
+    color: white;
 }
-.fa-instagram{
-color: white;
+
+.fa-instagram {
+    color: white;
 }
-.fa-behance{
-color: white;
+
+.fa-behance {
+    color: white;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 8px;
 }
-input{
+
+input {
     height: 40px;
     width: 350px;
 }
